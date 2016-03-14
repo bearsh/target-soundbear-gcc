@@ -58,9 +58,9 @@
         "SERIAL_TX": "P0_30",
 
         "SPI0_MOSI": "P0_7",
-        "SPI0_MISO": "P0_3", // "P0_8"
+        "SPI0_MISO": "P0_3",
         "SPI0_SCLK": "P0_9",
-        "VS1053_XCS": "P0_6", // "P0_10"
+        "VS1053_XCS": "P0_6",
         "VS1053_XDCS": "P0_11",
         "VS1053_DREQ": "P0_12",
         "VS1053_RST": "P0_13",
