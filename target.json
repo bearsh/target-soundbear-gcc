@@ -1,0 +1,78 @@
+{
+  "name": "soundbear-gcc",
+  "version": "0.1.0",
+  "inherits": {
+    "nordic-nrf51822-gcc": "^1.0.0"
+  },
+  "description": "Soundbear development platform.",
+  "homepage": "https://github.com/bearsh/target-soundbear-gcc",
+  "repository": {
+	  "url": "git@github.com:bearsh/target-soundbear-gcc.git",
+    "type": "git"
+  },
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "soundbear",
+    "mbed-target:soundbear",
+    "ble",
+    "nrf51822",
+    "gcc"
+  ],
+  "similarTo": [
+    "nrf51-generic"
+  ],
+  "config": {
+    "nrf51822": {
+      "ram_size": "16K"
+    },
+    "image": {
+      "heap": {
+        "warning_threshold": 1024
+      }
+    },
+    "hardware": {
+      "clocks": {
+        "nrf": {
+          "lfclk_src": 0
+        }
+      },
+      "pins": {
+        "LED1": "NC",
+        "LED2": "NC",
+        "LED3": "NC",
+        "LED4": "NC",
+        "RX_PIN_NUMBER": "NC",
+        "TX_PIN_NUMBER": "NC",
+        "CTS_PIN_NUMBER": "NC",
+        "RTS_PIN_NUMBER": "NC",
+
+        "TASTER_ADC": "P0_1",
+        "TASTER_SCALE": "P0_2",
+
+        "SERIAL_RX": "P0_29",
+        "SERIAL_TX": "P0_30",
+
+        "SPI0_MOSI": "P0_7",
+        "SPI0_MISO": "P0_3", // "P0_8"
+        "SPI0_SCLK": "P0_9",
+        "VS1053_XCS": "P0_6", // "P0_10"
+        "VS1053_XDCS": "P0_11",
+        "VS1053_DREQ": "P0_12",
+        "VS1053_RST": "P0_13",
+
+        "SD_CS": "P0_17",
+        "SD_CD": "P0_18",
+
+        "TWI1_SDA": "P0_23",
+        "TWI1_SCL": "P0_24",
+
+        "TPA2016_SHDN": "P0_25"
+      }
+    }
+  }
+}
