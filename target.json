@@ -28,7 +28,7 @@
   ],
   "config": {
     "nrf51822": {
-      "ram_size": "16K"
+      "ram_size": "32K"
     },
     "image": {
       "heap": {
@@ -38,7 +38,7 @@
     "hardware": {
       "clocks": {
         "nrf": {
-          "lfclk_src": 0
+          "lfclk_src": 1
         }
       },
       "pins": {
@@ -54,19 +54,19 @@
         "TASTER_ADC": "P0_1",
         "TASTER_SCALE": "P0_2",
 
-        "SERIAL_RX": "P0_29",
-        "SERIAL_TX": "P0_30",
+        "SERIAL_RX": "P0_14",
+        "SERIAL_TX": "P0_15",
 
-        "SPI0_MOSI": "P0_7",
+        "SPI0_MOSI": "P0_4",
         "SPI0_MISO": "P0_3",
-        "SPI0_SCLK": "P0_9",
+        "SPI0_SCLK": "P0_5",
         "VS1053_XCS": "P0_6",
-        "VS1053_XDCS": "P0_11",
-        "VS1053_DREQ": "P0_12",
-        "VS1053_RST": "P0_13",
+        "VS1053_XDCS": "P0_7",
+        "VS1053_DREQ": "P0_30",
+        "VS1053_RST": "P0_8",
 
         "SD_CS": "P0_17",
-        "SD_CD": "P0_18",
+        "SD_CD": "P0_16",
 
         "TWI1_SDA": "P0_23",
         "TWI1_SCL": "P0_24",
