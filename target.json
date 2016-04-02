@@ -1,13 +1,13 @@
 {
   "name": "soundbear-gcc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
   },
   "description": "Soundbear development platform.",
   "homepage": "https://github.com/bearsh/target-soundbear-gcc",
   "repository": {
-	  "url": "git@github.com:bearsh/target-soundbear-gcc.git",
+    "url": "git@github.com:bearsh/target-soundbear-gcc.git",
     "type": "git"
   },
   "licenses": [
@@ -50,13 +50,10 @@
         "TX_PIN_NUMBER": "NC",
         "CTS_PIN_NUMBER": "NC",
         "RTS_PIN_NUMBER": "NC",
-
         "TASTER_ADC": "P0_1",
         "TASTER_SCALE": "P0_2",
-
         "SERIAL_RX": "P0_14",
         "SERIAL_TX": "P0_15",
-
         "SPI0_MOSI": "P0_4",
         "SPI0_MISO": "P0_3",
         "SPI0_SCLK": "P0_5",
@@ -64,13 +61,10 @@
         "VS1053_XDCS": "P0_7",
         "VS1053_DREQ": "P0_30",
         "VS1053_RST": "P0_8",
-
         "SD_CS": "P0_17",
         "SD_CD": "P0_16",
-
         "TWI1_SDA": "P0_23",
         "TWI1_SCL": "P0_24",
-
         "TPA2016_SHDN": "P0_25"
       }
     }
